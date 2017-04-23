@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:id="@+id/clickbanner_clickyab_holder"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.appgostaran.admob.click.ClickView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            identity = "1"/>
+        <com.vizitsaz.TapAwareRelativeLayout
+            android:id="@+id/holder_clickyab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+            <com.clickyab.Banner
+                android:id="@+id/clickyab"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                token="3"/>
+        </com.vizitsaz.TapAwareRelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+            <ir.adad.AdView
+                android:id="@+id/ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                token="2"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
