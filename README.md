@@ -1,6 +1,6 @@
 ## RoohGram Messenger for Android
 
-Unofficial android telegram contain SOUL MODE
+Unofficial android telegram contains SOUL MODE
 
 ### API, Protocol documentation
 
